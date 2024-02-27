@@ -1,0 +1,162 @@
+
+/* @import url(http://g.delfi.lt/d/s/css2.css); */
+
+a:hover { color: #0066ff; }
+
+/* global things
+td,tr,body,table { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 10pt; line-height: 14px; }
+*/
+body { margin-top: 6px;font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 10pt; line-height: 14px; }
+.smallBody { font-family: Verdana, Helvetica, sans-serif; font-size: 10px; }
+.smallBodyVerdana { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt }
+
+/*old one*/
+.body {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt}
+
+/* global things */
+td,tr,body,table { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; }
+
+/* left and right DELFI layout columns background colors*/
+.leftCol{background-color: #ffc; width: 180px; vertical-align: top; border: none;}
+.rightCol{background-color: #eee; width: 180px; vertical-align: top;}
+.bottomLine{background-color: #FFCC00;}
+
+/* forms */
+select, input, textarea { background-color: white; }
+
+input.transButton { background-color: transparent; }
+
+select.dropdown { font-size: 10px; color: #000099; }
+td.dropdown { font-size: 10px; }
+
+.smLnk { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; }
+
+/* ALERTS */
+.alert { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 10pt; color: #990000 }
+.alertSmall { font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #990000 }
+
+.commentCount { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 10px; text-decoration: none; color: #990000 }
+.commentCount:hover { color: #990000 }
+
+/* delfi header */
+.DHR       { font-size: 10px; font-family: Arial, Verdana, Helvetica, sans-serif; color: black; background-color: white; }
+.DHL       { font-size: 10px; font-family: Arial, Verdana, Helvetica, sans-serif;  color: #000099; background-color: white; }
+.DHL:hover { color: red; text-decoration: none; background-color: transparent; }
+.DHLB      { font-size: 10px; font-family: Arial, Verdana, Helvetica, sans-serif; font-weight: bold; color: #000000; background-color: white; }
+
+#404 { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 20px;	font-weight: bold; color: red; }
+
+/* title */
+
+table.sectionTitle{width: 100%; height: 22px; margin: 0px 0px 0px 0px; border-collapse: collapse; border-bottom: 4px solid rgb(255,204,0); background-color: rgb(0,0,153);}
+table.sectionTitle td{vertical-align: middle; padding-left: 20px; font: bold 11px Verdana, Helvetica, sans-serif; color: rgb(255,255,255);}
+table.sectionTitle td a{ color: rgb(255,255,255); text-decoration: none;}
+table.sectionTitle td a:hover{ color: rgb(255,255,255); text-decoration: none;}
+
+table.sectionTitle {
+background:#0F59C9 url(http://g.delfi.lt/dng/i/s_block.gif) no-repeat scroll 0 0;
+border-bottom:1px solid #0000CC;
+height:17px;
+margin-bottom:9px;
+}
+table.sectionTitle td {
+background:transparent url(http://g.delfi.lt/dng/i/s_block.gif) no-repeat scroll 100% -17px;
+height:17px;
+background:transparent url(http://g.delfi.lt/dng/i/s_block.gif) repeat-x scroll 0 -34px;
+color:#FFFFFF;
+font-family:Verdana,Arial,Helvetica,sans-serif;
+font-size:11px;
+font-weight:700;
+height:13px;
+line-height:13px;
+margin:0 2px;
+padding:2px 8px 2px 4px;
+}
+
+/* poll */
+.pollFp { font-size: 10px; }
+.pollFpQ { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; }
+.pollFpA { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px;  word-wrap: break-word; }
+.pollQ { font-size: 11px; font-weight: bold; color: #000099; }
+.pollAn { font-size: 11px; font-weight: bold; color: #990000; }
+.pollDte { font-size: 11px; font-weight: bold; }
+.pollT { font-size: 11px; font-weight: bold; }
+.pollD { font-size: 11px; }
+.pollLnk { font-size: 11px; }
+.pollNav { font-size: 11px; }
+.pollA { font-size: 11px; font-weight: bold; color: #990000; }
+.pollTbig { font-family: Verdana,Arial,Helvetica, sans-serif; font-size: 14px; font-weight: bold; text-decoration: none; color: #000099; }
+.pollComArchive { font-size: 10px; }
+.poll { font-size: 10px; }
+
+/* yellow bg for poll */
+.pollInp { background-color: #ffffcc; }
+
+
+/* old ones */
+
+.subTitle { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #000099; font-weight: bold }
+.footer-info { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000099; text-decoration: none; }
+
+/* note2editor */
+.n2et { font-family : Arial, Helvetica, sans-serif; font-size : 12pt; color : #000099; font-weight : bold; background-color : transparent; }
+.n2el { font-family : Arial, Helvetica, sans-serif; font-size : 10pt; }
+.n2ea { font-family : Arial, Helvetica, sans-serif; font-size : 10pt; color : #990000; background-color : transparent; }
+
+/* comments@delfi */
+.catdTitle { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; }
+.catdTitleWhite { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #FFFFFF; font-weight: bold}
+.catdArticle { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000099; font-weight: bold; }
+.catdCommentCount { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #ff0000; text-decoration: none; font-weight: normal; }
+.catdAuthor { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; font-weight: bold; text-decoration: none; }
+.catdLink { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #0000cc; font-weight: bold; }
+.catdLinkSeparator { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; font-weight: bold; }
+
+
+/* search block */
+
+table.query{ background-color: #E5E5E5; text-align: left; vertical-align: middle;margin: 0px 0px 0px 0px; width: 370px; border-collapse: collapse; border-spacing: 0px;}
+table.query a{ color: #000000; font-size: 11px; text-decoration: underline; font-family: Verdana, Arial, sans-serif }
+table.query a:hover { text-decoration: none; }
+table.query td.url{ text-align: right; padding-right: 12px;}
+table.query td.q{ padding-left: 8px; padding-top: 4px;height: 24px; }
+
+table.options{ background-color: #E5E5E5;  height: 24px; text-align: left; vertical-align: middle; margin: 0px 0px 3px 0px; width: 370px;  border-collapse: collapse; border-spacing: 0px;}
+table.options a{font-size: 11px; color: #000000; font-family: Verdana, Arial, sans-serif; text-decoration: none;}
+table.options a:hover {text-decoration: underline;}
+
+.grey{background-color: #E5E5E5;}
+div.bg{background-color: #E5E5E5; width: 100%; border-top: 2px solid #FF9900; border-top: 2px solid #FF9900; border-bottom: 2px solid #FF9900;}
+
+/*RSS feed*/
+div.rss{width: 100%; padding: 15px; text-align: center !important;}
+.rsslink{ text-decoration: underline; font-size: 11px;}
+
+
+div.block div.adheader1 {
+background:#707070 url(http://g.delfi.lt/dng/i/s_adblock.gif) no-repeat scroll 0 0;
+border-bottom:1px solid #454545;
+height:17px;
+margin-bottom:9px;
+}
+div.block div.adheader1 div.adheader2 {
+background:transparent url(http://g.delfi.lt/dng/i/s_adblock.gif) no-repeat scroll 100% -17px;
+height:17px;
+}
+
+div.block div.adheader1 div.adheader2 h3 {
+background:transparent url(http://g.delfi.lt/dng/i/s_adblock.gif) repeat-x scroll 0 -34px;
+color:#FFFFFF;
+font-family:Verdana,Arial,Helvetica,sans-serif;
+font-size:11px;
+font-weight:700;
+height:13px;
+line-height:13px;
+margin:0;
+padding:2px 8px 2px 4px;
+}
+
+div.block div.adheader1 div.adheader2 h3 a {
+color:#FFFFFF;
+text-decoration: none;
+}
